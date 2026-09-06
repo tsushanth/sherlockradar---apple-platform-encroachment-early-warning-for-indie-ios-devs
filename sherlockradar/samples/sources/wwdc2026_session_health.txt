@@ -1,0 +1,31 @@
+WWDC 2026 Session: "What's New in Health and Wellbeing"
+Session ID: 10142
+Platform: iOS 20, watchOS 12
+
+Transcript excerpt (condensed):
+
+"This year we're introducing Journal Insights, a major expansion of the
+Health app's journaling capabilities. Journal Insights uses on-device
+machine learning to analyze your daily journal entries — the ones you write
+in the Journal app or dictate via Siri — and automatically surfaces mood
+trends over time.
+
+Every entry is scored against a new Mood Graph, which correlates your
+written reflections with signals like sleep quality, workout activity, and
+calendar density. At the end of each week, Health surfaces a short written
+summary: what lifted your mood, what patterns preceded low-mood days, and a
+gentle, AI-generated prompt to help you reflect further tomorrow.
+
+We've also added guided journaling prompts. Instead of a blank page, the
+Journal app can now suggest a prompt tailored to your day — drawing on
+calendar events, location visits, and even photos you took. And all of this
+mood-trend data rolls up into a new Mood tab right inside the Health app,
+alongside your existing sleep, activity, and mindfulness data — fully
+exportable and shareable with a care provider.
+
+This is built entirely on-device using the same Apple Neural Engine
+pipeline that powers Personal Voice, so none of your journal content ever
+leaves your iPhone unless you choose to share it."
+
+Availability: iOS 20, watchOS 12, journaling and Mood tab enabled by
+default for all Health app users. No opt-in required.

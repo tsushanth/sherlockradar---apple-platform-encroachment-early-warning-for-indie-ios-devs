@@ -1,0 +1,25 @@
+App Store Connect — What's New (excerpt, monthly changelog)
+
+1. In-App Events, expanded metadata
+   In-App Events now support a new "recurring" cadence type and a longer
+   (1000-character) rich description field. Events can be badged
+   "Community Favorite" if they receive high engagement.
+
+2. Game Center: Leaderboard Sets
+   Developers can now group multiple leaderboards into a single named
+   "Leaderboard Set" surfaced in the Game Center dashboard, useful for
+   games with per-season or per-mode leaderboards.
+
+3. TestFlight: Build comparison
+   TestFlight's web dashboard now shows a side-by-side crash-rate
+   comparison between the two most recent builds for the same tester
+   group, to make it easier to catch a regression from a recent build.
+
+4. Pricing and Availability: new currency support
+   App Store Connect adds pricing tiers for three additional local
+   currencies. No action required for apps already using tier-based
+   pricing — new tiers are calculated automatically.
+
+5. App Analytics: Retention cohort export
+   The Retention report in App Analytics can now be exported as CSV, with
+   cohort data broken out by acquisition channel where available.

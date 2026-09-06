@@ -1,0 +1,23 @@
+Internal Beta OS Diff Notes — iOS 20 Beta 3 vs Beta 2
+Source: system app bundle diff (Measure.app, RoomPlan.framework)
+
+New system app: "Measure" gains a "Pro" mode (feature-flagged, currently
+disabled by default; string resources present but UI not yet reachable
+without a developer entitlement).
+
+Strings and asset diff reveal:
+- New UI strings: "Scan Room", "Export as USDZ", "Export Dimensions (CSV)",
+  "Object Volume", "Compare to Previous Scan"
+- New RoomPlan.framework symbols referencing multi-room stitching
+  ("RPMultiRoomSession", "RPRoomMergeResult") not present in the public
+  RoomPlan API as of iOS 19.
+- New entitlement string: "com.apple.developer.roomplan.pro-scanning"
+- Measure.app's Info.plist now declares support for exporting scanned
+  rooms directly to the Files app in USDZ and CSV formats, and a new share
+  extension target "MeasureShare".
+
+Taken together, this points to Apple extending the built-in Measure app
+from single-object AR measurement into full multi-room 3D scanning with
+dimension export — historically the core feature set of third-party
+AR room-scanning and measurement apps. Feature is not live in any shipped
+beta yet; entitlement gating suggests a phased or WWDC-timed rollout.

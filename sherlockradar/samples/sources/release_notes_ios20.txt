@@ -1,0 +1,33 @@
+Apple Developer — iOS 20 Release Notes (excerpt)
+Section: Focus & System Frameworks
+
+Focus Filters, Improved
+
+iOS 20 expands the Focus Filters API first introduced in iOS 16. Focus
+Filters now support cross-app "distraction budgets": users can configure a
+Focus (e.g. "Deep Work") that automatically hides notification badges,
+mutes specific app categories, and — new this year — enforces a soft time
+limit on designated "distracting" apps for the duration of the Focus
+session, with a system-level nudge shown when the budget is exceeded.
+
+Developers can register custom Focus Filter configurations via the
+`FocusFilterIntent` API so their app's own settings (e.g., a game's
+difficulty mode, a browser's tab groups) adapt automatically when a Focus
+turns on. This is additive to the existing Screen Time / App Limits
+system, not a replacement — App Limits still requires manual configuration
+by the user in Settings.
+
+Live Text, System-Wide
+
+Live Text can now recognize and act on text in any live camera feed across
+the system, not just in Camera and Photos — including third-party camera
+previews that use the standard `AVCaptureVideoPreviewLayer`. No new API is
+required for most apps to benefit; the system overlay is applied
+automatically.
+
+StandBy Enhancements
+
+StandBy gains new default widgets (Weather, Now Playing, and a redesigned
+clock face gallery). Developers can continue to offer StandBy-optimized
+widgets via WidgetKit; no changes to the WidgetKit API are required for
+existing StandBy widgets to keep working.

@@ -1,0 +1,52 @@
+[
+  {
+    "name": "InkJournal",
+    "description": "A daily journaling app for iPhone with AI-generated writing prompts and a private mood tracker. Users write short entries each day; InkJournal analyzes tone and word choice on-device to plot a weekly mood trend graph and suggests a personalized prompt for the next entry based on recent patterns.",
+    "key_features": [
+      "AI-generated daily journaling prompts based on recent entries",
+      "On-device mood scoring from journal text",
+      "Weekly mood trend graph with correlations to sleep and activity (via HealthKit)",
+      "Private, exportable journal archive"
+    ]
+  },
+  {
+    "name": "SnapMeasure",
+    "description": "An AR-based measuring app that lets users scan a room or object with the camera and get accurate dimensions, plus export the scan for use in CAD or interior design tools. Popular with contractors and DIY renovators.",
+    "key_features": [
+      "Single-room AR scanning with dimension overlay",
+      "Multi-room scan stitching for whole-apartment floor plans",
+      "Export to USDZ and CSV for use in CAD tools",
+      "Object volume estimation"
+    ]
+  },
+  {
+    "name": "FocusFlow",
+    "description": "A productivity app that blocks distracting apps and websites during user-defined work sessions, with a 'distraction budget' that allows a limited number of minutes per session before hard-blocking.",
+    "key_features": [
+      "Custom work session presets with per-app time budgets",
+      "Hard blocking of distracting apps once budget is exceeded",
+      "Session history and weekly distraction reports",
+      "Adapts app-specific settings automatically when a session starts"
+    ]
+  },
+  {
+    "name": "QuietRead",
+    "description": "A minimalist RSS and read-later app with offline sync, custom reading themes, and a distraction-free article view. No AI features, no social feed, no OS-level integration beyond standard share sheet support.",
+    "key_features": [
+      "RSS feed subscriptions with offline sync",
+      "Read-later queue with iCloud sync across devices",
+      "Custom fonts and reading themes",
+      "Distraction-free article reader view"
+    ]
+  },
+  {
+    "name": "TableTally",
+    "description": "A restaurant bill-splitting and tip calculator app. Users photograph or manually enter a receipt, assign items to people, and TableTally computes each person's share including tax and tip.",
+    "key_features": [
+      "Manual and photo-based receipt entry",
+      "Per-item assignment to multiple people",
+      "Configurable tip and tax splitting rules",
+      "Shareable summary via Messages"
+    ]
+  }
+]
